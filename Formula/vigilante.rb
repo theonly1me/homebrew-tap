@@ -5,23 +5,23 @@ class Vigilante < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/theonly1me/vigilante/releases/download/v0.3.1/vigilante-aarch64-apple-darwin.tar.gz"
-      sha256 "c18b42416d10f8381bc6e895d52d1dd051659f505f85646f0d6369c0e851dcc8"
+      url "https://github.com/theonly1me/vigilante/releases/download/v0.3.2/vigilante-aarch64-apple-darwin.tar.gz"
+      sha256 "5403448a6a37f452bc2a3a8d93d4a08b8767b342ccff33dcb5e5f714b7db948e"
     end
     on_intel do
-      url "https://github.com/theonly1me/vigilante/releases/download/v0.3.1/vigilante-x86_64-apple-darwin.tar.gz"
-      sha256 "2df944194177aa6ba242689ed5b16a088d0ab5e6470c48823dd3125601ec61d0"
+      url "https://github.com/theonly1me/vigilante/releases/download/v0.3.2/vigilante-x86_64-apple-darwin.tar.gz"
+      sha256 "8e902931cf727c20cdc2bc9efebad064804df337f30370b8799424ee7f04424e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/theonly1me/vigilante/releases/download/v0.3.1/vigilante-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "ad29e006e5e3eb7dcacec20b60b858c054e9947a67994dab158985b77547ee2f"
+      url "https://github.com/theonly1me/vigilante/releases/download/v0.3.2/vigilante-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "85276932adc3cce7889d83322af06f0655ced15583d291893e3fa0959378bca0"
     end
     on_intel do
-      url "https://github.com/theonly1me/vigilante/releases/download/v0.3.1/vigilante-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "55a41668f441ac4b2fb77cfad18d760b3ebb5c55143210cf8d347fcf519d0a98"
+      url "https://github.com/theonly1me/vigilante/releases/download/v0.3.2/vigilante-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a86166160d86ff056eb3813285619f18eee42d64bab71ecd269ec55fae9f3d27"
     end
   end
 
